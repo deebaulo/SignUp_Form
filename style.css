@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 12px; */
+}
+
+.SignForm {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    border: solid 1px;
+    background-color: black;
+    height: 715px;
+    
+}
+
+label {
+    color: #4e4e4e;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+input {
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    width: 150px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+span {
+    font-size: 18px;
+}
+
+.side-photo img {
+    height: 710px;
+    width:330px;
+}
+
+.form {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 45%;
+}
+
+.form .above-text {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+form {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 30px;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.buttons {
+    width: 100%;
+    /* border: 1px solid green;  */
+}
+
+button {
+    background-color: #596D48;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: 600;
+    /* box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.1); */
+}
+
+.buttons p {
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+}
+
+.fullName, .contacts, .passwords {
+   display: flex;
+    /* margin: 5px; */
+    /* box-sizing: content-box; */
+    
+}
+
+.contacts, .passwords {
+    margin-bottom: 20px;
+}
+
+.firstName, .lastName {
+    display: block;
+}
+
+.firstName, .email, .password {
+    margin-right: 50px;
+}
+
+.above-text {
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.odin-logo {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+}
+
+.odin {
+    display: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000009a;
+    position:absolute;
+   padding: 10px 60px 10px 65px;
+   margin-right: 330px;
+   margin-bottom: 263px;
+   
+
+    
+}
+
+.odin-logo .odin-text {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.odin-logo .odin-pic img {
+    width: 80px;
+    height: 80px;
+}
+
+input:invalid {
+    border: 1px solid red;
+    background-color: #fdd;
+}
+/* input:valid:not(:placeholder-shown) {
+    border: 1px solid green;
+} */
+
+
